@@ -1,0 +1,41 @@
+\begin{table}[ht!] \centering 
+  \caption{Mining Activity and Media Coverage} 
+  \label{tab:did_gdelt_media} 
+\begin{tabular}{@{\extracolsep{0pt}}lccccccc} 
+\\[-1.8ex]\hline 
+\hline \\[-1.8ex] 
+ & \multicolumn{7}{c}{\textit{Dependent variable:}} \\ 
+\cline{2-8} 
+\\[-1.8ex] & \multicolumn{5}{c}{Mean(Articles/Protest)} & \multicolumn{2}{c}{} \\ 
+ & Full & Full & Full & Border & Border$\leq$2 & Full & Border$\leq$2 \\ 
+\\[-1.8ex] & (1) & (2) & (3) & (4) & (5) & (6) & (7)\\ 
+\hline \\[-1.8ex] 
+ $D_{it}$ & $-$0.46 & $-$0.14 & $-$0.32 & 0.49 & $-$0.79 &  &  \\ 
+  & (0.81) & (0.73) & (1.15) & (1.14) & (4.16) &  &  \\ 
+  & & & & & & & \\ 
+ $P_{it}$ (Placebo) &  &  &  &  &  & $-$0.59 & 15.07$^{**}$ \\ 
+  &  &  &  &  &  & (0.78) & (6.07) \\ 
+  & & & & & & & \\ 
+\hline \\[-1.8ex] 
+ & \multicolumn{7}{c}{\textit{Dependent variable:}} \\ 
+\cline{2-8} 
+\\[-1.8ex] & \multicolumn{5}{c}{Mean(Sources/Protest)} & \multicolumn{2}{c}{} \\ 
+ $D_{it}$ & $-$0.07 & $-$0.04 & $-$0.02 & $-$0.11 & $-$0.14 &  &  \\ 
+  & (0.06) & (0.07) & (0.04) & (0.07) & (0.23) &  &  \\ 
+  & & & & & & & \\ 
+ $P_{it}$ (Placebo) &  &  &  &  &  & 0.10 & $-$0.12 \\ 
+  &  &  &  &  &  & (0.08) & (0.32) \\ 
+  & & & & & & & \\ 
+\hline \\[-1.8ex] 
+\hline \\[-1.8ex] Cell FEs & 8,484 & 8,484 &  & 1,227 & 577 & 8,426 & 519 \\ 
+Cell-Period FEs &  &  & 12,037 &  &  &  &  \\ 
+Year FEs & 36 &  & 36 &  &  &  &  \\ 
+Country-Year FEs &  & 1,479 &  &  &  & 1,479 &  \\ 
+Area-Year FEs &  &  &  & 6,893 & 3,079 &  & 2,400 \\ 
+Mean($y_{it}$) & 5.478 & 5.478 & 5.478 & 5.447 & 5.47 & 5.474 & 5.369 \\ 
+Observations & 20,427 & 20,427 & 20,427 & 11,619 & 3,760 & 20,123 & 2,922 \\ 
+\hline 
+\hline \\[-1.8ex] 
+\textit{Note:}  & \multicolumn{7}{r}{Robust standard errors clustered on cell; $^{\dagger} p <$ 0.1, $^*p <$ 0.05} \\ 
+\end{tabular} 
+\end{table} 

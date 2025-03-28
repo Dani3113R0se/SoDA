@@ -1,0 +1,37 @@
+
+% Table created by stargazer v.5.2 by Marek Hlavac, Harvard University. E-mail: hlavac at fas.harvard.edu
+% Date and time: Mon, Feb 19, 2018 - 18:23:52
+\begin{table}[ht!] \centering 
+  \caption{Mining Activity, Pr(Protest), and Owners' Origins} 
+  \label{tab:did_acled_taxhaven} 
+\begin{tabular}{@{\extracolsep{0pt}}lcccccc} 
+\\[-1.8ex]\hline 
+\hline \\[-1.8ex] 
+ & \multicolumn{6}{c}{\textit{Dependent variable:}} \\ 
+\cline{2-7} 
+\\[-1.8ex] & \multicolumn{2}{c}{} & \multicolumn{2}{c}{$\mathbb{1}$(Protest)} & \multicolumn{2}{c}{} \\ 
+\\[-1.8ex] & (1) & (2) & (3) & (4) & (5) & (6)\\ 
+\hline \\[-1.8ex] 
+ $D_{it}$ & 0.005$^{*}$ & 0.004$^{*}$ & 0.005$^{*}$ & 0.005$^{*}$ & 0.006$^{*}$ & 0.005$^{*}$ \\ 
+  & (0.002) & (0.002) & (0.002) & (0.002) & (0.002) & (0.002) \\ 
+  & & & & & & \\ 
+ $D_{it}\times\mathbb{1}$(China) & 0.001 & 0.002 &  &  &  &  \\ 
+  & (0.015) & (0.015) &  &  &  &  \\ 
+  & & & & & & \\ 
+ $D_{it}\times\mathbb{1}$(Government) &  &  & $-$0.001 & $-$0.001 &  &  \\ 
+  &  &  & (0.003) & (0.003) &  &  \\ 
+  & & & & & & \\ 
+ $D_{it}\times\mathbb{1}$(Tax Haven) &  &  &  &  & $-$0.006$^{*}$ & $-$0.005$^{*}$ \\ 
+  &  &  &  &  & (0.002) & (0.002) \\ 
+  & & & & & & \\ 
+\hline \\[-1.8ex] 
+\hline \\[-1.8ex] Cell FEs & 1,500,511 & 1,500,511 & 1,500,511 & 1,500,511 & 1,500,504 & 1,500,504 \\ 
+Year FEs & 18 &  & 18 &  & 18 &  \\ 
+Country-Year FEs &  & 1,008 &  & 1,008 &  & 1,008 \\ 
+Mean($y_{it}$) & 0.0003 & 0.0003 & 0.0003 & 0.0003 & 0.0003 & 0.0003 \\ 
+Observations & 27,008,793 & 27,008,793 & 27,008,793 & 27,008,793 & 27,008,348 & 27,008,348 \\ 
+\hline 
+\hline \\[-1.8ex] 
+\textit{Note:}  & \multicolumn{6}{r}{Robust standard errors clustered on cell; $^{\dagger} p <$ 0.1, $^*p <$ 0.05} \\ 
+\end{tabular} 
+\end{table} 

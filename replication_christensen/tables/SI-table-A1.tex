@@ -1,0 +1,43 @@
+\begin{table}[ht!] \centering
+  \caption{Mining Activity and Pr(Armed Conflict) in ACLED} 
+  \label{tab:did_acled_armedconf}
+\begin{tabular}{@{\extracolsep{0pt}}lccccccc}
+\\[-1.8ex]\hline
+\hline \\[-1.8ex]
+ & \multicolumn{7}{c}{\textit{Dependent variable:}} \\
+\cline{2-8}
+\\[-1.8ex] & \multicolumn{5}{c}{$\mathbb{1}$(Battle)} & \multicolumn{2}{c}{} \\
+ & Full & Full & Full & Border & Border$\leq$2 & Full & Border$\leq$2 \\
+\\[-1.8ex] & (1) & (2) & (3) & (4) & (5) & (6) & (7)\\
+\hline \\[-1.8ex]
+ $D_{it}$ & 0.003$^{*}$ & 0.003$^{*}$ & $-$0.001 & 0.002 & 0.003$^{\dagger}$ &  &  \\
+  & (0.001) & (0.001) & (0.002) & (0.001) & (0.001) &  &  \\
+  & & & & & & & \\
+ $P_{it}$ (Placebo) &  &  &  &  &  & $-$0.001 & $-$0.002 \\
+  &  &  &  &  &  & (0.001) & (0.001) \\
+  & & & & & & & \\
+\hline \\[-1.8ex]
+Mean($y_{it}$) & 0.0003 & 0.0003 & 0.0003 & 0.0005 & 0.0008 & 0.0003 & 0.0006 \\
+\\[-1.8ex]\hline \hline \\[-1.8ex]
+ & \multicolumn{7}{c}{\textit{Dependent variable:}} \\
+\cline{2-8}
+\\[-1.8ex] & \multicolumn{5}{c}{$\mathbb{1}$(Rebel Event)} & \multicolumn{2}{c}{} \\
+ $D_{it}$ & $-$0.0001 & $-$0.0000 & $-$0.002 & $-$0.001 & $-$0.001 &  &  \\
+  & (0.001) & (0.001) & (0.001) & (0.001) & (0.001) &  &  \\
+  & & & & & & & \\
+ $P_{it}$ (Placebo) &  &  &  &  &  & $-$0.001 & $-$0.001 \\
+  &  &  &  &  &  & (0.001) & (0.002) \\
+  & & & & & & & \\
+\hline \\[-1.8ex]
+\hline \\[-1.8ex] Cell FEs & 1,500,538 & 1,500,538 &  & 65,994 & 18,763 & 1,500,189 & 18,414 \\
+Cell-Period FEs &  &  & 4,501,614 &  &  &  &  \\
+Year FEs & 18 &  & 18 &  &  &  &  \\
+Country-Year FEs &  & 1,008 &  &  &  & 1,008 &  \\
+Area-Year FEs &  &  &  & 18,864 & 18,864 &  & 18,864 \\
+Mean($y_{it}$) & 0.0003 & 0.0003 & 0.0003 & 0.0003 & 0.0005 & 0.0003 & 0.0004 \\
+Observations & 27,009,684 & 27,009,684 & 27,009,684 & 2,273,094 & 471,402 & 26,997,974 & 443,971 \\
+\hline
+\hline \\[-1.8ex]
+\textit{Note:}  & \multicolumn{7}{r}{Robust standard errors clustered on cell; $^{\dagger} p <$ 0.1, $^*p <$ 0.05} \\
+\end{tabular}
+\end{table}

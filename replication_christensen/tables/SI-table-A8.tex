@@ -1,0 +1,39 @@
+% Table created by stargazer v.5.2 by Marek Hlavac, Harvard University. E-mail: hlavac at fas.harvard.edu
+% Date and time: Mon, Feb 19, 2018 - 18:51:22
+\begin{table}[ht!] \centering
+  \caption{World Mineral Prices, Environmental Hazards, and Pr(Protest or Riot)}
+  \label{tab:did_acled_price_environment}
+\footnotesize
+\begin{tabular}{@{\extracolsep{0pt}}lcccc}
+\\[-1.8ex]\hline
+\hline \\[-1.8ex]
+ & \multicolumn{4}{c}{\textit{Dependent variable:}} \\
+\cline{2-5}
+\\[-1.8ex] & \multicolumn{4}{c}{$\mathbb{1}$(Protest or Riot)} \\
+\\[-1.8ex] & (1) & (2) & (3) & (4)\\
+\hline \\[-1.8ex]
+ log(Price$_{it}$) & 0.02$^{*}$ & 0.02$^{*}$ & 0.02$^{*}$ & 0.02$^{*}$ \\
+  & (0.01) & (0.01) & (0.01) & (0.01) \\
+  & & & & \\
+ log(Price$_{it}$)$\times\mathbb{1}$(Surface Mine)$_i$ & $-$0.002 &  &  &  \\
+  & (0.005) &  &  &  \\
+  & & & & \\
+ log(Price$_{it}$)$\times$Min(Dist. Protected Area)$_i$ &  & $-$0.0001 &  &  \\
+  &  & (0.0001) &  &  \\
+  & & & & \\
+ log(Price$_{it}$)$\times$Avg. Water Stress$_i$ &  &  & 0.002 &  \\
+  &  &  & (0.003) &  \\
+  & & & & \\
+ Env. Risk Exposure$_{ct}$ &  &  &  & $-$0.003 \\
+  &  &  &  & (0.01) \\
+  & & & & \\
+\hline \\[-1.8ex]
+\hline \\[-1.8ex] Cell FEs & 621 & 932 & 937 & 939 \\
+Country-Year FEs & 540 & 608 & 608 & 592 \\
+Mean($y_{it}$) & 0.0177 & 0.0134 & 0.0134 & 0.0134 \\
+Observations & 6,256 & 8,703 & 8,748 & 8,760 \\
+\hline
+\hline \\[-1.8ex]
+\textit{Note:}  & \multicolumn{4}{r}{Robust standard errors clustered on cell; $^{\dagger} p <$ 0.1, $^*p <$ 0.05} \\
+\end{tabular}
+\end{table}

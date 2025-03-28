@@ -1,0 +1,36 @@
+\begin{table}[ht!] \centering 
+  \caption{Mineral Prices and Pr(Battle)} 
+  \label{tab:did_price_acled_battle} 
+\begin{tabular}{@{\extracolsep{0pt}}lcccccc} 
+\\[-1.8ex]\hline 
+\hline \\[-1.8ex] 
+ & \multicolumn{6}{c}{\textit{Dependent variable:}} \\ 
+\cline{2-7} 
+\\[-1.8ex] & \multicolumn{6}{c}{$\mathbb{1}$(Battle)} \\ 
+\\[-1.8ex] & (1) & (2) & (3) & (4) & (5) & (6)\\ 
+\hline \\[-1.8ex] 
+ log(Price)$_{it}$ & 0.003 & 0.004 & 0.001 & 0.0004 & 0.001 & 0.001 \\ 
+  & (0.002) & (0.003) & (0.001) & (0.002) & (0.001) & (0.001) \\ 
+  & & & & & & \\ 
+\hline \\[-1.8ex] 
+Mean($y_{it}$) & 0.0043 & 0.0043 & 0.0019 & 0.0019 & 0.0003 & 0.0003 \\ 
+\\[-1.8ex]\hline \hline \\[-1.8ex]
+ & \multicolumn{6}{c}{\textit{Dependent variable:}} \\ 
+\cline{2-7} 
+\\[-1.8ex] & \multicolumn{6}{c}{$\mathbb{1}$(Rebel Event)} \\ 
+ log(Price)$_{it}$ & 0.002 & 0.001 & $-$0.001 & $-$0.002$^{\dagger}$ & 0.001 & 0.001 \\ 
+  & (0.002) & (0.002) & (0.001) & (0.001) & (0.001) & (0.001) \\ 
+  & & & & & & \\ 
+\hline \\[-1.8ex] 
+\hline \\[-1.8ex] Cell FEs & 940 & 940 & 284 & 284 & 1,499,840 & 1,499,840 \\ 
+Year FEs & 17 &  & 17 &  & 17 &  \\ 
+Country-Year FEs &  & 608 &  & 532 &  & 952 \\ 
+Mean($y_{it}$) & 0.0025 & 0.0025 & 0.0019 & 0.0019 & 0.0003 & 0.0003 \\ 
+\hline \\[-1.8ex] Mining Cell-Years Only & $\checkmark$ & $\checkmark$ & $\checkmark$ & $\checkmark$ &  &  \\ 
+Var(\# Mines) = 0 &  &  & $\checkmark$ & $\checkmark$ & $\checkmark$ & $\checkmark$ \\ 
+Observations & 8,776 & 8,776 & 4,851 & 4,851 & 25,497,303 & 25,497,303 \\ 
+\hline 
+\hline \\[-1.8ex] 
+\textit{Note:}  & \multicolumn{6}{r}{Robust standard errors clustered on cell; $^{\dagger} p <$ 0.1, $^*p <$ 0.05} \\ 
+\end{tabular} 
+\end{table} 
