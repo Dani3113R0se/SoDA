@@ -1,0 +1,15 @@
+========================================================================= 
+Log Path: ./log/sps_figure_log.log 
+Working Directory: /Users/sungkim/Dropbox/SPS measures in China/Replication 
+User Name: sungkim 
+R Version: 4.2.3 (2023-03-15) 
+Machine: MacBook-Pro-100.local arm64 
+Operating System: Darwin 23.2.0 Darwin Kernel Version 23.2.0: Wed Nov 15 21:53:34 PST 2023; root:xnu-10002.61.3~2/RELEASE_ARM64_T8103 
+Base Packages: stats graphics grDevices utils datasets methods base Other Packages: logr_1.3.5 
+Log Start Time: 2024-01-18 22:33:59 
+========================================================================= 
+
+========================================================================= 
+Log End Time: 2024-01-18 22:34:10 
+Log Elapsed Time: 0 00:00:10 
+========================================================================= 
